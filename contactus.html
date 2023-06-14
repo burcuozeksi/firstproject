@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/2817c57365.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+  </style>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: url(Others/contactus.jpg) repeat ;
+            background-size: cover;
+            background-position: center;
+
+        }
+        /* nav */
+        nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    height: max-content;
+    width: 100%;
+    background-color: transparent;
+    padding: 30px 10%;
+   
+}
+
+.brand{
+  
+    
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(234, 91, 91); 
+    font-family: 'Satisfy', cursive;
+}
+.logo{
+  width:75px;
+  height: 75px
+}
+nav ul{
+    display: flex;
+    height: 100%;
+   justify-content: space-evenly;
+  
+
+}
+nav li{
+    list-style-type: none;
+  
+}
+/* nav end */
+/* container */
+
+.kucuk{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+   justify-content: center;
+   display: flex;
+
+}
+.box{
+    width: 250px;
+    height: 200px;
+   border: 1px solid goldenrod;
+   margin-top: 70px;
+   margin: auto;
+   font-family: 'Amatic SC', cursive;
+   color: purple;
+}
+.box:hover{
+    transform: scale(1.5);
+    background-color: rgb(254, 248, 248);
+    transition: 1.5s;
+}
+
+.container li{
+    list-style-type: none;
+    font-size: x-large;
+    line-height: 1.5cm;
+    text-align: center; 
+}
+a:hover{
+      transform: scale(1.3);
+      transition: 1s;
+    }
+  .brand a:hover{
+    transform: scale(1.1);
+      transition: 1s;
+  }
+
+ a:link{
+    color: lightcoral;
+ }
+ a:visited{color: coral;
+ }
+  a{
+    text-decoration: none;
+  }
+  .bir{
+    width: 50%;
+    height: 500px;
+    float: left;
+
+
+  }
+  .contact{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  form{
+    text-align: center;
+  }
+  label{
+            font-family: 'Times New Roman', Times;
+            font-style: italic;
+            font-size: 25px;
+        }
+        button{
+            color: coral;
+            background-color: lemonchiffon;
+            border: 1px solid transparent;
+            border-radius: 25px;
+            margin-top: 3%;
+            height: 45px;
+            width: 15%;
+        }
+
+        input{
+            border: 1px solid transparent;
+            border-radius: 25px;
+            width: 50%;
+            line-height: 1cm;
+            text-align: center;
+        }
+
+        textarea{
+            border: 1px solid transparent;
+            border-radius: 25px;
+            text-align: center;
+        }
+        
+ @media screen and (max-width: 950px){
+    nav {
+          
+          Width: 100%
+        }
+        .brand{
+   display: flex;
+   justify-content: center;
+  
+  }
+  .logo{
+    width: 60px;
+    height: 60px;
+  }
+  iframe{
+    width: 350px;
+    height: 370px;
+  }
+ }
+ 
+     @media screen and (max-width: 768px){
+
+        .box{
+            margin: auto;
+        }
+   .box li{
+            font-size: 18px;
+        }
+
+  
+        .container .map{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+          
+        }
+       
+        .container .form{
+            width: 100%;
+           
+          
+        }
+       
+       
+     }
+
+   
+   @media screen and (max-width: 560px){
+    .box li{
+            font-size: 15px;
+        }
+        .box:hover{
+    transform: scale(1);
+    transition: 1s;
+   
+       
+    
+   }
+}
+     @media screen and (max-width: 465px){
+        .box li{
+            font-size: 16px;
+        }
+        .kucuk{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+           height: auto;
+          
+        }
+        .box{
+            width: 180px;
+        }
+   
+     }
+
+     @media screen and (max-width: 340px){
+        
+.brand{
+  
+    
+  font-size: 35px;
+
+}
+.logo{
+width:45px;
+height: 45px
+}
+.box{
+     width: 160px
+          }
+          .container .map{
+            margin-left: 8%;
+          
+        }
+       
+       
+     }
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="brand"> The Blooms <a href="index.html"><img src="Others/logo.png"  alt="logo" class="logo"></a></div> 
+     
+     <ul>
+        <li><a href="shop.html"> Shop Now</a></li>
+        <li><a href="aboutus.html"> About Us</a></li>
+        
+    </ul>
+    </nav>
+    <div class="container">
+        <div class="kucuk">
+        <div class="box"><ul>
+            <li><img src="Others/address.svg" alt=""></li>
+            <li>Address</li>
+            <li>Address: Lorem ipsum dolor sit amet</li>
+            
+        </ul></div>
+        <div class="box"><ul>
+            <li><i class="fa-solid fa-phone"></i></li>
+            <li>Telephone</li>
+            <li>+987 65 43 21</li>
+            
+        </ul></div>
+        <div class="box"><ul>
+            <li><i class="fa-solid fa-envelope"></i></li>
+            <li>E-mail</li>
+            <li>lorem.abc@gmail.com</li>
+        </ul></div>
+    </div>
+    
+        <div class="bir form">
+            <h1 class="contact">Contact Us!</h1>
+            <form>
+                <label>E-mail:</label><br>
+	<input type="email" placeholder="Enter a valid e-mail address" name="email"><br>
+	<label>Name:</label><br>
+	<input type="text" name="name" placeholder="Enter your name"><br>
+    <label>Message:</label><br>
+    <textarea name="textarea" id="textarea" placeholder="Enter your message" cols="50" rows="10"></textarea><br>
+    <button>Submit</button>
+
+            </form>
+        </div>
+        <div class="bir map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1020.8282649032!2d27.131576247470708!3d38.41807121648113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd8e156282545%3A0x9ab0bb97113de0e3!2sKonak%2C%20Dr.%20Faik%20Muhittin%20Adam%20Cd.%20No%3A15%2C%2035250%20Konak%2F%C4%B0zmir!5e0!3m2!1str!2str!4v1675102683295!5m2!1str!2str" width="470" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+</body>
+</html>
